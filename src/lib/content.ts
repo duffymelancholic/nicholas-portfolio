@@ -1,6 +1,7 @@
 export const profile = {
   name: "Nicholas Obonyo Abala",
   shortName: "Nicholas Obonyo",
+  mark: "NOA",
   title: "Full-Stack Developer",
   location: "Nairobi, Kenya",
   phone: "+254 769 611 795",
@@ -12,6 +13,9 @@ export const profile = {
   resumeHref: "/nicholas-obonyo-abala-cv.pdf",
   summary:
     "Full-stack developer on retainer at ChainForge. I ship React, Next.js, and Node.js products through Git and pull requests. I use Claude in Cursor to implement and debug faster, then I review the diff, run the product, and own what ships. I have also put GPT-4 and Hugging Face inside a live product, called from the server.",
+  heroLine: "Products that feel directed — not assembled.",
+  heroSupport:
+    "Nairobi-based full-stack developer shipping React, Next.js, and product AI with the polish of a studio release.",
 };
 
 export const experience = [
@@ -35,6 +39,8 @@ export const projects = [
     subtitle: "Peer-to-peer energy marketplace",
     href: "https://eco-hub-trvd.onrender.com/",
     tags: ["OpenAI GPT-4", "Hugging Face", "Node.js", "React"],
+    tone: "solar",
+    image: "/media/work-eco.jpg",
     points: [
       "Connected GPT-4 and Hugging Face behind a Node API so unstructured input became localized solar plans and marketplace pricing.",
       "Shipped with a student team to production on Render. The model calls stay on the server.",
@@ -47,6 +53,8 @@ export const projects = [
     subtitle: "Property booking and admin platform",
     href: null as string | null,
     tags: ["Next.js", "React", "TypeScript", "Tailwind"],
+    tone: "champagne",
+    image: "/media/work-hotel.jpg",
     points: [
       "Guest site and admin for rooms, dining, events, offers, gallery, and contact.",
       "Booking path from dates to confirmation, with availability scaffolding and payment reconciliation foundations.",
@@ -59,6 +67,8 @@ export const projects = [
     subtitle: "Production-Grade Media Platform",
     href: null as string | null,
     tags: ["Next.js", "PostgreSQL", "Prisma", "JWT", "TMDB"],
+    tone: "cinema",
+    image: "/media/work-stream.jpg",
     points: [
       "Decoupled Next.js app and Express API, with PostgreSQL, Prisma migrations, and JWT auth.",
       "TMDB credentials stay on the server. Deployed on Vercel and Render.",
@@ -71,6 +81,8 @@ export const projects = [
     subtitle: "Kenya chess community platform",
     href: null as string | null,
     tags: ["React", "Next.js", "TypeScript"],
+    tone: "forest",
+    image: "/media/work-chess.jpg",
     points: [
       "Built the county map, rankings, tournaments, and editorial flows end to end, then took them through review to a shippable product.",
     ],
@@ -82,6 +94,8 @@ export const projects = [
     subtitle: "Authenticated management interface",
     href: null as string | null,
     tags: ["Auth", "UI/UX", "Data validation"],
+    tone: "slate",
+    image: "/media/work-apm.jpg",
     points: [
       "Built and deployed an end-to-end management system with secure authentication, data validation, and clean interface states.",
       "Designed modular components for seamless data fetching and refined UI/UX to improve workflow and navigation logic.",

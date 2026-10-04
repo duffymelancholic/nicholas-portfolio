@@ -17,7 +17,7 @@ export default function Home() {
         <section className="hero-stage" aria-label="Introduction">
           <div className="hero-media" aria-hidden="true">
             <Image
-              src="/media/hero-city.jpg"
+              src="/media/hero-nairobi.jpg"
               alt=""
               fill
               priority
@@ -35,13 +35,13 @@ export default function Home() {
             <h1 className="reveal reveal-delay-1 mt-5 max-w-5xl font-display text-[clamp(3.4rem,11vw,7.5rem)] leading-[0.9] tracking-[-0.03em]">
               <span className="shimmer-text">{profile.name}</span>
             </h1>
-            <p className="reveal reveal-delay-2 mt-6 max-w-xl font-display text-2xl italic leading-snug text-ink-soft sm:text-3xl">
+            <p className="hero-line reveal reveal-delay-2 mt-6 max-w-xl font-display text-2xl italic leading-snug text-ink-soft sm:text-3xl">
               {profile.heroLine}
             </p>
-            <p className="reveal reveal-delay-3 mt-4 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
+            <p className="hero-support reveal reveal-delay-3 mt-4 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
               {profile.heroSupport}
             </p>
-            <div className="reveal reveal-delay-4 mt-8 flex flex-wrap gap-3">
+            <div className="hero-actions reveal reveal-delay-4 mt-8 flex flex-wrap gap-3">
               <a className="btn-lime" href="#work">
                 View selected work
               </a>

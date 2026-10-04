@@ -389,8 +389,35 @@ a {
     gap: 1.25rem;
   }
 
+  .hero-stage {
+    min-height: auto;
+    height: auto;
+  }
+
   .hero-copy {
-    padding: 6.5rem 0 3.25rem;
+    padding: 6.75rem 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2.4rem, 12vw, 3.6rem) !important;
+    line-height: 0.95;
+  }
+
+  .hero-copy .hero-line {
+    margin-top: 1.25rem;
+    font-size: 1.35rem !important;
+  }
+
+  .hero-copy .hero-support {
+    margin-top: 0.85rem;
+    font-size: 0.95rem !important;
+  }
+
+  .hero-copy .hero-actions {
+    margin-top: 1.5rem;
   }
 
   .skill-group {
